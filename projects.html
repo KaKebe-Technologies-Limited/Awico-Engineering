@@ -37,18 +37,15 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<!-- Spinner -->
-<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center" aria-label="Loading content">
-  <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
-</div>
+
 
 <!-- Topbar Start -->
 <div class="container-fluid bg-primary text-white d-none d-md-flex wow fadeIn medium" data-wow-delay="0.1s">
     <div class="container py-2">
         <div class="d-flex align-items-center flex-wrap">
-            <a href="index.html">
-                <h2 class="text-white fw-bold m-0">AWICO ENGINEERING</h2>
-            </a>
+           <a href="index.html" class="navbar-brand d-lg-none">
+        <img src="img/logo.png" alt="Awico Engineering Company Ltd" style="height: 40px;">
+      </a>
             <div class="ms-auto d-flex align-items-center flex-wrap">
                 <div class="ms-3 d-flex">
                     <a class="btn btn-sm-square btn-light text-primary ms-2" href="https://maps.google.com/?q=Plot+26,+Oyuku+Jackson+Road,+Lira+City,+Uganda" aria-label="View our location"><i class="fa fa-map-marker-alt"></i></a>
@@ -63,40 +60,41 @@
     </div>
 </div>
 <!-- Topbar End -->
-
-    <!-- Navbar Start -->
-    <div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
-                <a href="projects.html" class="navbar-brand d-lg-none">
-                    <h1 class="fw-bold m-0">AWICO ENGINEERING</h1>
-                </a>
-                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="index.html" class="nav-item nav-link ">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About Us</a>
-                        <a href="service.html" class="nav-item nav-link">Our Services</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Projects</a>
-                            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <div class="ms-auto d-none d-lg-block">
-                        <a href="contact.html" class="btn btn-primary py-2 px-3">Get A Quote</a>
-                    </div>
-                </div>
-            </nav>
+<!-- Navbar -->
+<div class="container-fluid bg-white sticky-top wow fadeIn" data-wow-delay="0.1s">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
+     <a href="index.html" class="navbar-brand d-lg-none">
+        <img src="img/logo.png" alt="Awico Engineering Company Ltd" style="height: 40px;">
+      </a>
+      <button class="navbar-toggler me-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="service.html" class="nav-item nav-link">Services</a>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+            <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
+              <a href="feature.html" class="dropdown-item">Features</a>
+              <a href="team.html" class="dropdown-item">Our Team</a>
+              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              <a href="appointment.html" class="dropdown-item">Appointment</a>
+              <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
+            </div>
+          </div>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+          <a href="projects.html" class="nav-item nav-link active">Projects</a>
         </div>
-    </div>
-    <!-- Navbar End -->
+        <div class="ms-auto d-none d-lg-block">
+          <a href="contact.html" class="btn btn-primary py-2 px-3">Get A Quote</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
 
 <!-- Page Header -->
 <div class="container-fluid page-header pt-5 mb-6 wow fadeIn" data-wow-delay="0.1s">
@@ -118,158 +116,436 @@
   </div>
 </div>
 
-<!-- Projects -->
-<div class="container-fluid project pt-6 pb-6">
-  <div class="container">
+    <!-- Projects Section Start -->
+    <div class="container-fluid project pt-6 pb-6">
+      <div class="container">
+        <div class="text-center mx-auto wow fadeInUp mb-5" data-wow-delay="0.1s" style="max-width: 600px;">
+          <h2 class="display-6 text-uppercase">Our Projects</h2>
+        </div>
 
-    <!-- Ongoing Projects -->
-    <div class="text-center mx-auto wow fadeInUp mb-5" data-wow-delay="0.1s" style="max-width: 600px;">
-      <h2 class="display-6 text-uppercase">Ongoing Projects</h2>
+        <div class="row g-4">
+
+          <!-- Project 1 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project1&type=project">
+                <img class="img-fluid w-100" src="img/projects/project1.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project1&type=project">Arise Nursery & Primary School – Nakivale</a></h5>
+                <p>Construction of classroom blocks, admin block, kitchen & latrines.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project2&type=project">
+                <img class="img-fluid w-100" src="img/projects/project2.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project2&type=project">Maratatu Primary School – Kyangwali</a></h5>
+                <p>New classroom blocks, office, store, kitchen and pit latrine.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project3&type=project">
+                <img class="img-fluid w-100" src="img/projects/project3.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project3&type=project">School Facility Rehabilitation – Albertine</a></h5>
+                <p>Rehabilitation of blocks and upgrade of health centres II.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project4&type=project">
+                <img class="img-fluid w-100" src="img/projects/project4.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project4&type=project">Okol East Water Scheme – Kitgum</a></h5>
+                <p>Pumping station, guard house, control room and ME works.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project5&type=project">
+                <img class="img-fluid w-100" src="img/projects/project5.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project5&type=project">GRP Tanks – Awach, Omoro & Lalogi</a></h5>
+                <p>Supply & installation of 40m³ tanks in 3 districts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project6&type=project">
+                <img class="img-fluid w-100" src="img/projects/project6.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project6&type=project">Imvepi Settlement – Terego (GIZ)</a></h5>
+                <p>Rehabilitation of 4 solar-powered water systems.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project7&type=project">
+                <img class="img-fluid w-100" src="img/projects/project7.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project7&type=project">Pressed Steel Tanks – Aboke & Adiaka</a></h5>
+                <p>Construction of 30m³ & 40m³ pressed steel tanks.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 8 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project8&type=project">
+                <img class="img-fluid w-100" src="img/projects/project8.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project8&type=project">Ocea Rhino Camp – OXFAM</a></h5>
+                <p>45m³ tank, tower and chlorine dosing house.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 9 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project9&type=project">
+                <img class="img-fluid w-100" src="img/projects/project9.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project9&type=project">Otuke Health Centre – Ggoli Ltd</a></h5>
+                <p>Installation of a 40m³ pressed steel tank.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 10 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project10&type=project">
+                <img class="img-fluid w-100" src="img/projects/project10.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project10&type=project">Arua – Eden IV (Malteser)</a></h5>
+                <p>32.58m³ tank, tower and water scheme fittings.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 11 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project11&type=project">
+                <img class="img-fluid w-100" src="img/projects/project11.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project11&type=project">Dokolo Health Centre – Alcom</a></h5>
+                <p>Construction and installation of 40m³ pressed steel tank.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 12 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project12&type=project">
+                <img class="img-fluid w-100" src="img/projects/project12.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project12&type=project">Otuke & Amuru – Allianz</a></h5>
+                <p>43.80m³ pressed steel tanks installed in 2 districts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 13 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project13&type=project">
+                <img class="img-fluid w-100" src="img/projects/project13.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project13&type=project">Iwal Kwania & Atura Aber – Allianz</a></h5>
+                <p>43.8m³ tanks installed in Oyam & Kwania districts.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 14 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project14&type=project">
+                <img class="img-fluid w-100" src="img/projects/project14.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project14&type=project">Mbale City – Bernoulli</a></h5>
+                <p>Construction of 40m³ pressed steel tank.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 15 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project15&type=project">
+                <img class="img-fluid w-100" src="img/projects/project15.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project15&type=project">Kibaale Town Water Supply</a></h5>
+                <p>Improvement of water & sanitation system.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 16 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project16&type=project">
+                <img class="img-fluid w-100" src="img/projects/project16.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project16&type=project">Umbrella North – Multiple Sites</a></h5>
+                <p>Construction & replacement of tanks and towers.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 17 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project17&type=project">
+                <img class="img-fluid w-100" src="img/projects/project17.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project17&type=project">Owori Memorial WASH – Tororo</a></h5>
+                <p>Piped water, market kiosks & drainable toilets.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 18 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project18&type=project">
+                <img class="img-fluid w-100" src="img/projects/project18.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project18&type=project">Kinuuka Town Water – Lyantonde</a></h5>
+                <p>Piped water, reservoir, generator house & public taps.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 19 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project19&type=project">
+                <img class="img-fluid w-100" src="img/projects/project19.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project19&type=project">Prefabricated Houses – K-Fire Crew</a></h5>
+                <p>Prefab offices, biogas digester, incinerator & housing units.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 20 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project20&type=project">
+                <img class="img-fluid w-100" src="img/projects/project20.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project20&type=project">Water & Sanitation – Lira & Alebtong</a></h5>
+                <p>Boreholes, reservoirs, latrines, rainwater tanks & biogas units.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 21 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project21&type=project">
+                <img class="img-fluid w-100" src="img/projects/project21.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project21&type=project">Ayilo Settlement – Adjumani</a></h5>
+                <p>36m³ tank on tower & water supply network.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 22 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project22&type=project">
+                <img class="img-fluid w-100" src="img/projects/project22.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project22&type=project">Kalungi Water Supply – Nakasongola</a></h5>
+                <p>Piped system with 50m³ pressed steel tank & taps.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 23 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project23&type=project">
+                <img class="img-fluid w-100" src="img/projects/project23.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project23&type=project">Adagnyeko P/S – Staff Housing</a></h5>
+                <p>Construction of twin staff house with full works.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 24 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project24&type=project">
+                <img class="img-fluid w-100" src="img/projects/project24.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project24&type=project">Amonoloco P/S – Classroom Block</a></h5>
+                <p>5-classroom block with roofing, doors & painting.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 25 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project25&type=project">
+                <img class="img-fluid w-100" src="img/projects/project25.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project25&type=project">VIP Pit Latrines – Multiple Sites</a></h5>
+                <p>Construction of 4 four-stance VIP pit latrines.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 26 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project26&type=project">
+                <img class="img-fluid w-100" src="img/projects/project26.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project26&type=project">Juru School Water Extension – Nakivale</a></h5>
+                <p>Pipeline extension to school & health centre with pump house.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 27 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project27&type=project">
+                <img class="img-fluid w-100" src="img/projects/project27.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project27&type=project">Rwenkobwa RGC – Water Supply</a></h5>
+                <p>Concrete tank, submersible pumps, generator & public kiosks.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 28 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project28&type=project">
+                <img class="img-fluid w-100" src="img/projects/project28.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project28&type=project">Kinogozi Water Supply – Hoima</a></h5>
+                <p>Piped system with steel panel tank & generator house.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 29 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project29&type=project">
+                <img class="img-fluid w-100" src="img/projects/project29.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project29&type=project">Agweng RGC – Water Supply</a></h5>
+                <p>Piped system with steel panel tank & public taps.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 30 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item">
+              <a href="details.html?id=project30&type=project">
+                <img class="img-fluid w-100" src="img/projects/project30.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project30&type=project">Orwamuge & Lotuke – Water Supply</a></h5>
+                <p>Motorization, transmission & distribution with steel tank.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 31 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="project-item">
+              <a href="details.html?id=project31&type=project">
+                <img class="img-fluid w-100" src="img/projects/project31.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project31&type=project">Lokitelaebu RGC – Kotido</a></h5>
+                <p>Piped water with reinforced tank base & pumps.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 32 -->
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="project-item">
+              <a href="details.html?id=project32&type=project">
+                <img class="img-fluid w-100" src="img/projects/project32.jpg" alt="">
+              </a>
+              <div class="project-text px-4 pt-3">
+                <h5><a href="details.html?id=project32&type=project">Konyo Konyo Market – Juba</a></h5>
+                <p>Market water supply & extension to Jebel-Kijul.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
+    <!-- Projects Section End -->
 
-    <div class="row g-4">
-      <!-- Each Ongoing Project -->
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-1.jpg" alt="Buvuma Road Construction Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Buvuma Road Construction</h5>
-            <p>Ongoing road infrastructure for enhanced connectivity.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-2.jpg" alt="Lira Street Lighting Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Lira Street Lighting</h5>
-            <p>Ongoing municipal lighting for urban safety.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-3.jpg" alt="School Construction Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">School Construction</h5>
-            <p>Ongoing school building project for educational growth.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-4.jpg" alt="Drainage System Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Drainage System</h5>
-            <p>Ongoing urban drainage for flood control and sanitation.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-5.jpg" alt="Bridge Rehabilitation Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Bridge Rehabilitation</h5>
-            <p>Ongoing bridge repair for safe transportation networks.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-6.jpg" alt="Solar Electrification Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Solar Electrification</h5>
-            <p>Ongoing solar power installation for rural communities.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Completed Projects -->
-    <div class="text-center mx-auto wow fadeInUp mt-5 mb-5" data-wow-delay="0.1s" style="max-width: 600px;">
-      <h2 class="display-6 text-uppercase">Completed Projects</h2>
-    </div>
-
-    <div class="row g-4">
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-7.jpg" alt="Ranch One Water Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Ranch One Water Project</h5>
-            <p>Completed piped water system for rural community access.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-8.jpg" alt="Solar Irrigation System" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Solar Irrigation System</h5>
-            <p>Completed solar-powered irrigation for agriculture.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-1.jpg" alt="Community Borehole Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Community Borehole</h5>
-            <p>Completed borehole for clean water access in rural areas.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-2.jpg" alt="Biogas Energy Plant" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Biogas Energy Plant</h5>
-            <p>Completed biogas system for sustainable energy solutions.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-3.jpg" alt="Health Center Renovation Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Health Center Renovation</h5>
-            <p>Completed facility upgrade for improved healthcare access.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="project-item">
-          <img class="img-fluid w-100" src="img/service-4.jpg" alt="Market Infrastructure Project" loading="lazy">
-          <div class="project-text px-4 pt-3">
-            <h5 class="text-uppercase">Market Infrastructure</h5>
-            <p>Completed market facility for local economic development.</p>
-          </div>
-          <a class="btn btn-light px-3" href="/projects">Read More <i class="bi bi-chevron-double-right ms-1"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Footer -->
 <div class="container-fluid bg-dark footer py-5 wow fadeIn" data-wow-delay="0.1s">
