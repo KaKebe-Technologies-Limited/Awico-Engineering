@@ -126,7 +126,7 @@ const services = {
       "img/crane-works-2.jpg",
       "img/crane-works-1.jpg"
     ],
-    description: "Providing heavy-duty cranes for lifting and construction tasks, available round-the-clock."
+    description: "Comprehensive crane hire and lifting solutions for construction and industrial projects. Our certified operators and modern cranes ensure safe, efficient handling of heavy materials, with services covering site assessment, lift planning, rigging, and on-site support for projects of any scale."
   },
 };
 
