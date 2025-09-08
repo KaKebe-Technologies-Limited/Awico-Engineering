@@ -118,7 +118,16 @@ const services = {
       "img/equipment-hire-3.jpg"
     ],
     description: "Wide range of heavy machinery and equipment available for hire with skilled operators. From excavators and cranes to bulldozers and loaders, we provide well-maintained equipment for construction, mining, and logistics projects, including short-term and long-term rentals with on-site support."
-  }
+  },
+  "crane-works": {
+    title: "Crane Works",
+    images: [
+      "img/equipment-hire-2.jpg",
+      "img/crane-works-2.jpg",
+      "img/crane-works-1.jpg"
+    ],
+    description: "Providing heavy-duty cranes for lifting and construction tasks, available round-the-clock."
+  },
 };
 
 // ==== PROJECTS DATA ====
@@ -409,7 +418,7 @@ if (data) {
 
   // Grab up to 3 images (recycle if fewer provided)
   const imgs = data.images || [];
-  const img1 = imgs[0] || "img/placeholder.jpg";
+  const img1 = imgs[0] || "img/awico/ART02777.jpg";
   const img2 = imgs[1] || img1;
   const img3 = imgs[2] || img1;
 
