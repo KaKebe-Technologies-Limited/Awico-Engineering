@@ -464,6 +464,9 @@
 }
 
 .service .service-item img {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    overflow: hidden;
     margin-top: -45px;
     padding-left: 45px;
 }
