@@ -96,8 +96,8 @@ const services = {
     title: "Solar Solutions",
     images: [
       "img/solar-solutions-1.jpg",
-      "img/solar-solutions-3.jpg",
-      "img/solar-solutions-2.jpg"
+      "img/solar-solutions-2.jpg",
+      "img/carousel/SOLARS INSTALLED TO PUMP WATER.JPG"
     ],
     description: "Solar pumping systems, energy solutions, and long-term maintenance services. We design and install photovoltaic systems for off-grid and hybrid applications, including panels, inverters, batteries, and controls, with maintenance plans to ensure optimal energy output and system longevity."
   },
