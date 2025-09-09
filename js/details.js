@@ -405,7 +405,7 @@ if (type === "project") {
 
 if (data) {
   // Update document title
-  document.title = `${data.title} - Awico Engineering`;
+  document.title = `${data.title} | Awico Engineering Ltd`;
 
   // Update page header title
   if (pageTitle) pageTitle.textContent = data.title;
