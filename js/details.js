@@ -24,7 +24,7 @@ const services = {
   },
   "agricultural-products": {
     title: "Agricultural Machinery & Equipment",
-    images: ["img/1.jpeg", "img/2.jpeg", "img/3.jpeg", "img/4.jpeg"],
+    images: ["img/1.jpeg", "img/2.jpeg", "img/4.jpeg"],
     description:
       "AWICO We provide high-performance post-harvest and processing machinery designed to improve farming efficiency and value addition. From precision thrashing to consistent feed blending, our equipment is built to withstand industrial use while ensuring maximum crop yield and quality for Ugandan farmers and agribusinesses.",
   },
@@ -38,6 +38,26 @@ const services = {
     ],
     description:
       "We provide a comprehensive range of accessories to ensure successful installation and longevity of your storage systems. For potable water, we supply Stainless Steel (SS304/316) internal accessories; for irrigation, Hot-Dipped Galvanized (HDG) components are provided. Our inventory includes internal and external ladders, water level meters, high-grade sealants (glass cement and sealing tapes), internal tie rods, and HDG flanges/tie pieces.",
+  },
+  "mechanical-lift": {
+    title: "Mechanical Lift Installation",
+    images: [
+      "img/products/lift8.jpg",
+      "img/products/lift9.jpg",
+      "img/products/lift5.jpg",
+    ],
+    description:
+      "We specialize in the supply, installation, and maintenance of heavy-duty mechanical lifts. Our services cover hydraulic lifts, traction lifts, and goods elevators for industrial warehouses and commercial buildings. We ensure all installations meet strict safety regulations, conducting rigorous load testing and providing routine servicing to prevent downtime and ensure operational safety.",
+  },
+  "stage-building": {
+    title: "Stage Building & Fabrication",
+    images: [
+      "img/products/stag 3.webp",
+      "img/products/stag2.jpeg",
+      "img/products/stage1.jpg",
+    ],
+    description:
+      "Our stage fabrication service delivers custom-built platforms for churches, schools, outdoor events, and theaters. Using high-grade steel and reinforced truss systems, we design stages that are both lightweight and incredibly strong. Options include permanent concrete-steel composite stages or modular, portable steel frames that can be disassembled. All structures are engineered to support heavy sound equipment and large crowds safely.",
   },
   "solar-solutions": {
     title: "Solar Water & Lighting Systems",
